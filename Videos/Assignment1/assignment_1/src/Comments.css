@@ -1,0 +1,70 @@
+.comments-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.comments-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comments-container h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.comments-container p {
+  margin-bottom: 5px;
+}
+
+.comments-container .welcome-message {
+  font-weight: bold;
+}
+
+.comments-container .comment {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.comments-container .comment p {
+  margin-bottom: 5px;
+}
+
+.comments-container .comment img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.comments-container .add-comment {
+  margin-top: 20px;
+}
+
+.comments-container .add-comment h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comments-container .add-comment textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.comments-container .add-comment input[type="number"],
+.comments-container .add-comment input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.comments-container .add-comment button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.comments-container .add-comment button:hover {
+  background-color: #45a049;
+}
